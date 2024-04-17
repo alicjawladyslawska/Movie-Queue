@@ -1,0 +1,111 @@
+body {
+    font-family: monospace; /* Set the default font family for the entire page */
+    margin-right: 50px;
+}
+
+/* Reset margin for text and headings */
+p, h1, h2 {
+    margin-left: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: monospace; /* Center-align and use monospace font for h1 and h2 headings */
+}
+
+li {
+    margin: 5px; /* Add margin around list items for spacing */
+}
+
+.movie-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    /* Style for the movie info container with flex layout and borders */
+}
+
+/* Style the bulleted list on the left within .movie-info */
+.movie-details {
+    list-style-type: disc;
+    margin-left: 10px;
+    padding-right: 10px;
+    /* Style for the bulleted list within .movie-info */
+}
+
+/* Style the "Add to Queue" button */
+.add-to-queue {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    /* Style for the "Add to Queue" button with blue background */
+}
+
+#add-movie {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Center-align and style the content within the #add-movie container */
+}
+
+.remove-movie {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    /* Style for the "Remove Movie" button with red background */
+}
+
+#movieList {
+    text-align: center; /* Center-align the content within #movieList */
+}
+
+#search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Style for the search bar container with center-aligned content */
+}
+
+#searchButton {
+    font-family: monospace; /* Use monospace font for the search button */
+}
+
+#search-input {
+    font-family: monospace;
+    width: 200px;
+    text-align: center;
+    /* Use monospace font, set width, and center-align the search input */
+}
+
+#search-input {
+    margin-bottom: 10px; /* Add spacing between the input and button */
+}
+
+/* Style the movie text and add a container for alignment */
+.movie-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Style for the movie text with flex layout and alignment */
+}
+
+.searchResults {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Style for the search results container with flex layout and alignment */
+}
+
+/* Clear default list styling */
+ul {
+    list-style-type: none; /* Remove default bullet points from unordered lists */
+}
